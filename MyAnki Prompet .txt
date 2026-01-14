@@ -1,0 +1,167 @@
+
+================================================
+MODE 1 — FLASHCARDS
+================================================
+You are generating content for a PyQt desktop application called "MyAnki".
+FORMAT COMPLIANCE IS CRITICAL. Do NOT add explanations, comments, introductions, markdown, emojis, or extra text.
+Output MUST match the selected mode EXACTLY.
+
+
+TASK:
+Create high-quality study flashcards from the provided content.
+
+STRICT OUTPUT FORMAT:
+- Start immediately with "Card 1"
+- No text before Card 1
+- No text after the last card
+- Each card MUST follow exactly:
+
+Card 1
+Front: [clear question or term]
+Back: [precise answer or explanation]
+
+Card 1
+Front: [clear question or term]
+Back: [precise answer or explanation]
+
+Card 2
+Front: [clear question or term]
+Back: [precise answer or explanation]
+
+card 3
+Front: [clear question or term]
+Back: [precise answer or explanation]
+
+
+- One blank line between cards ONLY
+- minimum 50 cards
+- Do NOT inline Front and Back on the same line
+- Use technical terms in English
+- Keep answers concise and accurate
+
+CONTENT:
+[is provided]
+
+================================================
+MODE 2 — PRACTICE MCQs
+================================================
+You are generating content for a PyQt desktop application called "MyAnki".
+FORMAT COMPLIANCE IS CRITICAL. Do NOT add explanations, comments, introductions, markdown, emojis, or extra text.
+Output MUST match the selected mode EXACTLY.
+
+TASK:
+Generate practice MCQs compatible with the Study Companion MCQ parser.
+
+STRICT OUTPUT FORMAT:
+
+
+First line (Answer Key):
+1;B;2;C;3;B;4;B;5;B;6;C;7;B;8;B;9;B;10;B;11;B;12;B;13;C;14;B;15;B;16;B;17;B;18;B;19;B;20;B
+
+1. What is the standard chip rate for a 3G W-CDMA system?
+A. 1.25 Mcps
+B. 3.84 Mcps
+C. 5.00 Mcps
+D. 200 Kcps
+
+2. Which interface is defined between the Node B and the Radio Network Controller (RNC)?
+A. Uu
+B. Iur
+C. Iub
+D. Iu-PS
+
+3. What is the carrier bandwidth used for a single UMTS frequency channel?
+A. 200 KHz
+B. 5 MHz
+C. 1.25 MHz
+D. 10 MHz
+
+4. Which hardware component is used to combine multipath signal components in a CDMA receiver?
+A. Diplexer
+B. RAKE receiver
+C. Mixer
+D. Oscillator
+
+5. The situation where a UE near the base station interferes with the signal of a distant UE is the:
+A. Doppler effect
+B. Near-Far Problem
+C. Multipath fading
+D. Cell breathing
+
+
+
+RULES:
+- Exactly 4 options per question
+- Question numbering MUST start from 1
+- One blank line between questions ONLY
+- Do NOT repeat answers in the question body
+- Do NOT use bullets, markdown, or alternate numbering
+- Technical terms must remain in English
+- minimum 50  questions
+
+CONTENT:
+[is provided]
+
+GENERATE PRACTICE MCQs NOW.
+
+================================================
+MODE 3 — EXAM MODE
+================================================
+You are generating content for a PyQt desktop application called "MyAnki".
+FORMAT COMPLIANCE IS CRITICAL. Do NOT add explanations, comments, introductions, markdown, emojis, or extra text.
+Output MUST match the selected mode EXACTLY.
+
+TASK:
+Generate exam questions compatible with the Study Companion Exam engine.
+
+STRICT OUTPUT FORMAT — OUTPUT ONLY THIS STRUCTURE:
+
+First line (Answer Key):
+1;B;2;C;3;B;4;B;5;B;6;C;7;B;8;B;9;B;10;B;11;B;12;B;13;C;14;B;15;B;16;B;17;B;18;B;19;B;20;B
+
+1. What is the standard chip rate for a 3G W-CDMA system?
+A. 1.25 Mcps
+B. 3.84 Mcps
+C. 5.00 Mcps
+D. 200 Kcps
+
+2. Which interface is defined between the Node B and the Radio Network Controller (RNC)?
+A. Uu
+B. Iur
+C. Iub
+D. Iu-PS
+
+3. What is the carrier bandwidth used for a single UMTS frequency channel?
+A. 200 KHz
+B. 5 MHz
+C. 1.25 MHz
+D. 10 MHz
+
+4. Which hardware component is used to combine multipath signal components in a CDMA receiver?
+A. Diplexer
+B. RAKE receiver
+C. Mixer
+D. Oscillator
+
+5. The situation where a UE near the base station interferes with the signal of a distant UE is the:
+A. Doppler effect
+B. Near-Far Problem
+C. Multipath fading
+D. Cell breathing
+
+
+
+RULES:
+- Output NOTHING before the answer key
+- Output NOTHING after the last option of the last question
+- Question numbering MUST start from 1
+- Exactly 4 options per question (A. B. C. D.)
+- One blank line between questions ONLY
+- Uppercase option letters ONLY
+- minimum 50 questions
+- Do NOT add explanations or hints
+
+CONTENT:
+[is provided]
+
+GENERATE EXAM NOW.
